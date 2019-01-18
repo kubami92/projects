@@ -1,0 +1,141 @@
+body {
+    background-color: black;
+}
+
+#odliczanie {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.numer{
+    margin-top: 30%;
+    display: inline-block;
+    font-size: 250px;
+    position: absolute;
+    text-align: center;
+    background-color: black;
+    color: white;
+    
+}
+
+
+#numer10 {
+    
+    animation-name: odliczanie;
+    animation-duration: 1s;
+    transition: odliczanie 0 infinite;
+    opacity: 0;
+    animation-delay: 1s;
+    
+}
+
+#numer9{
+    
+    animation-name: odliczanie;
+    animation-duration: 1s;
+    transition: odliczanie 0 infinite;
+    animation-delay: 2s;
+    opacity: 0;
+    
+}
+
+@keyframes odliczanie {
+    
+    from {opacity: 0;}
+    to {opacity: 1;}
+    
+}
+
+#numer8 {
+    
+    animation-name: odliczanie;
+    animation-duration: 1s;
+    transition: odliczanie 0 infinite;
+    opacity: 0;
+    animation-delay: 3s;
+    
+}
+
+#numer7 {
+    
+    animation-name: odliczanie;
+    animation-duration: 1s;
+    transition: odliczanie 0 infinite;
+    opacity: 0;
+    animation-delay: 4s;
+    
+}
+
+#numer6 {
+    animation-name: odliczanie;
+    animation-duration: 1s;
+    transition: odliczanie 0 infinite;
+    opacity: 0;
+    animation-delay: 5s;
+}
+
+#numer5 {
+    animation-name: odliczanie;
+    animation-duration: 1s;
+    transition: odliczanie 0 infinite;
+    opacity: 0;
+    animation-delay: 6s;
+}
+
+#numer4 {
+    animation-name: odliczanie;
+    animation-duration: 1s;
+    transition: odliczanie 0 infinite;
+    opacity: 0;
+    animation-delay: 7s;
+}
+
+#numer3 {
+    animation-name: odliczanie;
+    animation-duration: 1s;
+    transition: odliczanie 0 infinite;
+    opacity: 0;
+    animation-delay: 8s;
+}
+
+#numer2 {
+    animation-name: odliczanie;
+    animation-duration: 1s;
+    transition: odliczanie 0 infinite;
+    opacity: 0;
+    animation-delay: 9s;
+}
+
+#numer1 {
+    animation-name: odliczanie;
+    animation-duration: 1s;
+    transition: odliczanie 0 infinite;
+    opacity: 0;
+    animation-delay: 10s;
+}
+
+#napis {
+    margin-top: 10%;
+    animation-name: odliczanie;
+    animation-duration: 1s;
+    transition: odliczanie 0 infinite;
+    opacity: 0;
+    animation-delay: 11s;
+    
+}
+
+#napis2 {
+    margin-top: 10%;
+    animation-name: koniec;
+    animation-duration: 1s;
+    transition: koniec 0 infinite;
+    opacity: 0;
+    animation-delay: 12s;
+    animation-duration: 5s; 
+}
+
+@keyframes koniec {
+    from {opacity: 1;}
+    to {opacity: 1;}
+}
