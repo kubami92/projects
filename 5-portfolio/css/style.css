@@ -1,0 +1,194 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f2f1ed;
+}
+
+header {
+    background-image: url(../img/header.jpg);
+    padding: 100px;
+    background-position: 0 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+#header {
+    flex-direction: column;
+    
+}
+    
+p {
+    color: #333
+}
+
+h1 {
+    color: #007bff;
+}
+
+hr {
+    width: 50px;
+    margin-bottom: 50px;
+    color: red
+}
+nav {
+    background-color: #007bff;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.main-navigation {
+    position: sticky;
+    top: 0
+}
+
+ul {
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+}
+.menu-item {
+    display: inline-block;
+    height: 50px;
+    align-items: center;
+    display: flex;
+    flex-basis: 33%;
+    justify-content: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.menu-item:hover {
+    background-color: gray;
+    color: #007bff;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    padding: 5px;
+    
+}
+
+span {
+    color: #007bff;
+}
+
+.image {
+    border-radius: 250px;
+}
+
+#o-mnie {
+    background-color: white;
+    padding: 100px;
+    padding-top: 
+}
+
+#galeria {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0;
+    
+}
+
+#portfolio #galeria figure img {
+    display: flex;
+    max-width: 100%
+
+}
+#zdjecie {
+    padding: 0;
+    margin: 0;
+    max-width: 25%;
+    position: relative;
+}
+
+#zdjecie:hover{
+    opacity: 0.5;
+}
+
+#kontakt {
+    
+    background-color: white;
+    
+}
+
+h4 {
+    background-color: white;
+    padding-top: 40px
+}
+
+#message {
+    width: 40%;
+    margin: 5px;
+    border: 1px solid lightgray;
+    font-size: 10px;
+    flex-basis: 100%;
+    height: 50px
+}
+
+#name, #mail {
+    display: inline-block;
+    margin: 0;
+    width: 25%;
+    font-size: 10px;
+    width: 20%;
+    height: 30px;
+}
+
+footer {
+    margin: 30px;
+    font-size: 10px;
+    color: #777;
+}
+
+#sec-con {
+    background-color: white;
+    margin-top: 50px;
+}
+
+.button {
+    border: 1px solid #007bff;
+    color: black;
+    font-size: 10px;
+    padding: 10px;
+    background-color: transparent;
+    
+    
+}
+
+.button:hover {
+    background-color: #007bff;
+    color: white
+    
+}
+.projekt{
+    
+    display: block;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+.projekt:hover {
+    opacity: 0.8;
+    background-color: #007bff;
+    color: white;
+    padding: 25%;
+    font-size: 20px
+}
