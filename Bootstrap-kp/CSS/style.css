@@ -1,0 +1,85 @@
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
+a {
+    color:  #e38f42;
+}
+
+#main-nav {
+    padding-left: 12%;
+    padding-right: 12%;
+}
+
+#dolaczdonas {
+    font-size: 36px;
+}
+
+.zapisz {
+    width: 100%;
+    height: 
+}
+
+.col {
+    background-color: rgba(0,0,0,0.3);
+    padding: 20px;
+}
+
+.btn {
+    background-color: #e38f42;
+    color: #fff;
+    height: 50px;
+}
+.btn-secondary {
+    background-color: rgba(0,0,0,0.5);
+}
+
+#dolacz {
+    background-color: rgba(0,0,0,0.5);
+    padding: 30px;
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+
+.form-control {
+    font-size: 15px;
+    height: 50px;
+}
+
+#naglowek {
+    color: #fff;
+    font-size: 36px;
+    text-align: center;
+}
+
+.podnaglowkiem {
+    color: #c2c2c2;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+section {
+    width: 100%;
+    height: 800px;
+}
+
+#form {
+    padding-top: 150px;
+    background-image: url(form-background.jpg);
+    background-size: cover;
+}
+
+.ins {
+    text-align: left;
+    color: #c2c2c2;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+#inspiration1 {
+    padding-top: 50px;
+}
